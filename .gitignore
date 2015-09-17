@@ -1,0 +1,6 @@
+build
+build.properties
+dist
+birt-plugin.iml
+.svn
+/bin/

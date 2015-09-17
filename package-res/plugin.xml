@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin title="BIRT Report Document Plugin">
+  <content-type type="rptdocument" mime-type="application/octet-stream">
+    <title>BIRT Report Document</title>
+    <description>BIRT Report Document</description>
+    <meta-provider>com.innoventsolutions.pentaho.birtrptdocplugin.BIRTContentTypeMetaProvider</meta-provider>
+    <operations>
+      <operation><id>RUN</id></operation>
+    </operations>
+  </content-type>
+  <content-generator id="birt-rptdoc-plugin" title="BIRT Viewer" type="rptdocument"
+	class="com.innoventsolutions.pentaho.birtrptdocplugin.BIRTContentGenerator"/>
+</plugin>
